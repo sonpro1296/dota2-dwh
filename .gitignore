@@ -1,0 +1,6 @@
+credentials/
+.idea/
+__init__.py
+config.yaml
+logs/
+plugins/
