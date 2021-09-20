@@ -86,7 +86,10 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-    mem_limit: 600m
+    deploy:
+      resources:
+        limits:
+          memory: 600m
 
   airflow-scheduler:
     <<: *airflow-common
@@ -97,7 +100,10 @@ services:
       timeout: 10s
       retries: 5
     restart: always
-    mem_limit: 600m
+    deploy:
+      resources:
+        limits:
+          memory: 600m
 
 
   airflow-init:
