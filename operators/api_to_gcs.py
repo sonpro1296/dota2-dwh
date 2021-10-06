@@ -25,7 +25,10 @@ class ApiToGCSOperator(BaseOperator):
         list_matches = get_data.get_matches(last_match)
         list_df = list()
         for match in list_matches:
-            list_df.append(get_data.get_match_info(match))
+            try:
+                list_df.append(get_data.get_match_info(match))
+            except:
+                continue
         df = pd.concat(list_df, ignore_index=True)
 
         bucket.blob(self.match_file).upload_from_string(df.to_csv(index=False), 'text/csv')
