@@ -2,6 +2,9 @@
 Statistics about Dota 2 teams, players and heroes
 Source: https://docs.opendota.com/
 
+Reports can be seen at: https://datastudio.google.com/reporting/5431f7da-c008-49a3-9823-8442c0047c1d
+
+
 Data flow:
 
 
@@ -19,4 +22,3 @@ Database Schema:
 
 ![Schema Design](https://www.linkpicture.com/q/Untitled_235.png)
 
-Reports can be seen at: https://datastudio.google.com/reporting/5431f7da-c008-49a3-9823-8442c0047c1d
