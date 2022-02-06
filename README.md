@@ -3,6 +3,8 @@ Statistics about Dota 2 teams, players and heroes
 Source: https://docs.opendota.com/
 
 Data flow:
+
+
 ![Data flow](https://www.linkpicture.com/q/Untitled_233.png)
 
 
