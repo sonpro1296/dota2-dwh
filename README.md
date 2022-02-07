@@ -1,5 +1,5 @@
 ## Dota 2 Reports
-Statistics about Dota 2 teams, players and heroes
+Latest statistics about Dota 2 teams, players and heroes
 Source: https://docs.opendota.com/
 
 Reports can be seen at: https://datastudio.google.com/reporting/5431f7da-c008-49a3-9823-8442c0047c1d
